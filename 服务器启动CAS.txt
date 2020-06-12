@@ -1,0 +1,16 @@
+服务器参数:
+1). 系统: CentOS7
+2). IP: 192.168.70.3
+3). 用户名: root
+    密码: zzq12345
+
+服务器启动项:
+1. CAS
+   1). Tomcat
+       启动: /usr/local/dev/cas/tomcat/bin/startup.sh
+       查看: 使用浏览器访问"http://192.168.70.3:9100", 观察是否显示Tomcat的主页;
+       停止: /usr/local/dev/cas/tomcat/bin/shutdown.sh
+   2). CAS是一个JavaWeb应用, 我们部署在Tomcat中, Tomcat启动后, 可以直接通过浏览器访问, 地址:
+       http://192.168.70.3:9100/cas/login
+       这是CAS提供的默认登录页面, 默认用户名为"casuser", 默认密码为"Mellon";
+       我们可以替换为自己的登录页面, 设置自己的用户名和密码;
