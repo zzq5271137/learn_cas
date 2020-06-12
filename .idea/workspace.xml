@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="caspro1:war exploded" />
+      <artifact name="caspro2:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7555a77d-da24-42b0-97ca-cf0de4e9294a" name="Default Changelist" comment="" />
+    <list default="true" id="7555a77d-da24-42b0-97ca-cf0de4e9294a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/caspro1/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/caspro1/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caspro1/target/caspro1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/caspro1/target/caspro1/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caspro2/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/caspro2/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caspro2/target/caspro2/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/caspro2/target/caspro2/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +24,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -47,6 +55,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1dCiO5yb93zv00Ey3dLtgt9m8eh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,7 +70,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -441,7 +450,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591935440766</updated>
-      <workItem from="1591935442336" duration="3877000" />
+      <workItem from="1591935442336" duration="5418000" />
+      <workItem from="1591945880819" duration="303000" />
+      <workItem from="1591946351382" duration="2232000" />
     </task>
     <servers />
   </component>
@@ -449,46 +460,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591944303864">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1591944902076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1591944303864" />
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1591944902076" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591945127113">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1591945127113" />
     <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1591944279755">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591944279755" />
-    <state width="1297" height="371" key="GridCell.Tab.0.bottom" timestamp="1591944508050">
+    <state width="1297" height="303" key="GridCell.Tab.0.bottom" timestamp="1591948749295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1297" height="371" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591944508050" />
-    <state width="1297" height="371" key="GridCell.Tab.0.center" timestamp="1591944508049">
+    <state width="1297" height="303" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591948749295" />
+    <state width="1297" height="303" key="GridCell.Tab.0.center" timestamp="1591948749295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1297" height="371" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591944508049" />
-    <state width="1297" height="371" key="GridCell.Tab.0.left" timestamp="1591944508049">
+    <state width="1297" height="303" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591948749295" />
+    <state width="1297" height="303" key="GridCell.Tab.0.left" timestamp="1591948749295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1297" height="371" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591944508049" />
-    <state width="1297" height="371" key="GridCell.Tab.0.right" timestamp="1591944508050">
+    <state width="1297" height="303" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591948749295" />
+    <state width="1297" height="303" key="GridCell.Tab.0.right" timestamp="1591948749295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1297" height="371" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591944508050" />
-    <state width="1297" height="371" key="GridCell.Tab.1.bottom" timestamp="1591944508050">
+    <state width="1297" height="303" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591948749295" />
+    <state width="1297" height="303" key="GridCell.Tab.1.bottom" timestamp="1591948749296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1297" height="371" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591944508050" />
-    <state width="1297" height="371" key="GridCell.Tab.1.center" timestamp="1591944508050">
+    <state width="1297" height="303" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591948749296" />
+    <state width="1297" height="303" key="GridCell.Tab.1.center" timestamp="1591948749296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1297" height="371" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591944508050" />
-    <state width="1297" height="371" key="GridCell.Tab.1.left" timestamp="1591944508050">
+    <state width="1297" height="303" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591948749296" />
+    <state width="1297" height="303" key="GridCell.Tab.1.left" timestamp="1591948749296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1297" height="371" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591944508050" />
-    <state width="1297" height="371" key="GridCell.Tab.1.right" timestamp="1591944508050">
+    <state width="1297" height="303" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591948749296" />
+    <state width="1297" height="303" key="GridCell.Tab.1.right" timestamp="1591948749296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1297" height="371" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591944508050" />
+    <state width="1297" height="303" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591948749296" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1591935561409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
